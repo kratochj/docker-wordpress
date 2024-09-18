@@ -120,5 +120,6 @@ Temporary Items
 
 README.md
 .gitignore
+docker-compose.yml
 
 # End of https://www.toptal.com/developers/gitignore/api/osx,intellij+all
