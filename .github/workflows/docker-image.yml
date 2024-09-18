@@ -24,7 +24,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        image: apps/lidice-memory
+        image: wordpress-enhanced
         tags: 1, latest, ${{ env.SHORT_SHA }}
         registry: ${{ vars.DOCKER_REGISTRY }}
         dockerfile: Dockerfile
